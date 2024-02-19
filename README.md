@@ -14,3 +14,13 @@
 ping 127.0.0.1
 
 ```
+
+
+________
+
+
+**comando di tracert**
+
+```
+tracert google.it
+```
