@@ -119,6 +119,78 @@ z = str(3.0)  # z will be '3.0'
 ______________________________
 
 
+# Operatori logici 
+
+
+1. **and:**
+   - Returns True if both conditions on either side of the operator are true.
+   ```python
+   x = True
+   y = False
+   result = x and y  # result is False
+   ```
+
+2. **or:**
+   - Returns True if at least one of the conditions on either side of the operator is true.
+   ```python
+   x = True
+   y = False
+   result = x or y  # result is True
+   ```
+
+3. **not:**
+   - Returns True if the condition following the operator is false, and vice versa.
+   ```python
+   x = True
+   result = not x  # result is False
+   ```
+
+
+```python
+a = True
+b = False
+
+# Logical AND
+result_and = a and b  # False
+
+# Logical OR
+result_or = a or b  # True
+
+# Logical NOT
+result_not = not a  # False
+```
+
+
+
+
+
+____________________________
+
+# String 
+
+```python
+
+a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""
+print(a)
+
+
+b= '''Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua.'''
+print(b) 
+
+```
+
+
+
+
+
+
+
 
 
 
