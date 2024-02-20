@@ -16,6 +16,7 @@ https://www.javatpoint.com/python-tutorial<br>
 6. [Operatori logici](#Operatori_logici)
 7. [python conditions](#pythonconditions)
 8. [loops](#loops)
+9. [Functions](#Functions)
 
 
 
@@ -367,6 +368,86 @@ In Python, loops are used to repeatedly execute a block of code until a certain 
        print("Loop finished")
    ```
 
+___________________________________________
+
+
+# Functions
+
+
+In Python, a function is a block of reusable code that performs a specific task. Functions allow you to organize code into modular components, making it easier to read, understand, and maintain. Here's a basic overview of functions in Python:
+
+### Defining a Function:
+
+```python
+def greet(name):
+    """This function prints a greeting."""
+    print(f"Hello, {name}!")
+
+# Calling the function
+greet("Alice")
+```
+
+In this example, we define a function called `greet` that takes a parameter `name` and prints a greeting. The triple-quoted string within the function is a docstring, providing documentation for the function.
+
+### Function Parameters:
+
+Functions can have parameters (input values) that allow them to accept different values when called.
+
+```python
+def add_numbers(x, y):
+    """This function adds two numbers."""
+    result = x + y
+    return result
+
+# Calling the function with arguments
+sum_result = add_numbers(3, 5)
+print("Sum:", sum_result)
+```
+
+### Return Statement:
+
+Functions can return values using the `return` statement. If there is no `return` statement or if it is without an expression, the function returns `None` by default.
+
+```python
+def square(x):
+    """This function returns the square of a number."""
+    return x ** 2
+
+# Calling the function and using the returned value
+result = square(4)
+print("Square:", result)
+```
+
+### Default Parameters:
+
+You can set default values for parameters, making them optional when calling the function.
+
+```python
+def greet_person(name, greeting="Hello"):
+    """This function greets a person with a custom or default greeting."""
+    print(f"{greeting}, {name}!")
+
+# Calling the function with and without the second argument
+greet_person("Bob")             # Uses default greeting
+greet_person("Alice", "Hi")     # Uses custom greeting
+```
+
+### Variable Number of Arguments:
+
+You can use `*args` to pass a variable number of non-keyword arguments to a function.
+
+```python
+def sum_numbers(*args):
+    """This function sums up all the given numbers."""
+    total = sum(args)
+    return total
+
+# Calling the function with different numbers of arguments
+result1 = sum_numbers(1, 2, 3)
+result2 = sum_numbers(4, 5, 6, 7)
+print("Sum 1:", result1)
+print("Sum 2:", result2)
+```
 
 
 
