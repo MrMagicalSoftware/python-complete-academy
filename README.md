@@ -10,7 +10,7 @@ https://www.javatpoint.com/python-tutorial<br>
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [datatypes](#data types)
+3. [datatypes](#datatypes)
 4. [Python Numbers](#Python Numbers)
 5. [Contributing](#contributing)
 6. [License](#license)
