@@ -2,9 +2,9 @@
 
 
 
-https://www.w3schools.com/python/
-https://www.tutorialspoint.com/python/index.htm
-https://www.javatpoint.com/python-tutorial
+https://www.w3schools.com/python/<br>
+https://www.tutorialspoint.com/python/index.htm<br>
+https://www.javatpoint.com/python-tutorial<br>
 
 
 **data types**
