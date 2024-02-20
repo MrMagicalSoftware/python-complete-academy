@@ -10,15 +10,15 @@ https://www.javatpoint.com/python-tutorial
 **data types**
 
 
-Python has the following data types built-in by default, in these categories:
-Text Type: 	str
-Numeric Types: 	int, float, complex
-Sequence Types: 	list, tuple, range
-Mapping Type: 	dict
-Set Types: 	set, frozenset
-Boolean Type: 	bool
-Binary Types: 	bytes, bytearray, memoryview
-None Type: 	NoneType
+Python has the following data types built-in by default, in these categories:<br>
+Text Type: 	str <br>
+Numeric Types: 	int, float, complex<br>
+Sequence Types: 	list, tuple, range<br>
+Mapping Type: 	dict<br>
+Set Types: 	set, frozenset<br>
+Boolean Type: 	bool<br>
+Binary Types: 	bytes, bytearray, memoryview<br>
+None Type: 	NoneType<br>
 
 
 
