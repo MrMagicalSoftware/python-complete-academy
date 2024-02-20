@@ -478,6 +478,147 @@ print(b)
 
 ```
 
+**Strings are Arrays**
+```python
+
+a = "Hello, World!"
+print(a[1])
+```
+
+**Looping Through a String**
+```python
+
+for x in "banana":
+  print(x)
+```
+
+
+**String Length**
+
+```python
+
+a = "Hello, World!"
+print(len(a))
+```
+
+**Check String**
+
+To check if a certain phrase or character is present in a string, we can use the keyword in.
+
+
+txt = "The best things in life are free!"
+print("free" in txt)
+_________________________________________
+
+
+**Check String**
+
+```python
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+```
+
+
+________________________
+
+
+In Python, classes and objects provide a way to structure and organize code in an object-oriented programming (OOP) paradigm. 
+Here's a basic overview of classes and objects in Python:
+
+### Classes:
+
+A class is a blueprint for creating objects. It defines the attributes (characteristics) and methods (functions) that the objects created from the class will have. Here's a simple example:
+
+```python
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def bark(self):
+        print("Woof!")
+
+# Creating an instance (object) of the Dog class
+my_dog = Dog(name="Buddy", age=3)
+
+# Accessing attributes and calling methods
+print(f"My dog's name is {my_dog.name} and is {my_dog.age} years old.")
+my_dog.bark()
+```
+
+In this example, `Dog` is a class with attributes `name` and `age`, and a method `bark`. The `__init__` method is a special method called a constructor, which is executed when an object is created.
+
+### Objects:
+
+Objects are instances of a class. They represent specific instances of the class and can have unique attribute values. In the example above, `my_dog` is an object of the `Dog` class.
+
+### Inheritance:
+
+Inheritance allows a class (subclass) to inherit the attributes and methods of another class (superclass). It promotes code reusability.
+
+```python
+class Cat(Dog):
+    def purr(self):
+        print("Purr!")
+
+# Creating an instance of the Cat class
+my_cat = Cat(name="Whiskers", age=2)
+
+# Inherited attributes and methods
+print(f"My cat's name is {my_cat.name} and is {my_cat.age} years old.")
+my_cat.bark()  # Inherited method
+my_cat.purr()  # Additional method
+```
+
+### Encapsulation:
+
+Encapsulation is the concept of restricting access to certain attributes or methods of a class. In Python, this is achieved using private and protected attributes.
+
+```python
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius  # Protected attribute
+
+    def _calculate_area(self):  # Protected method
+        return 3.14 * self._radius**2
+
+# Creating an instance of the Circle class
+my_circle = Circle(radius=5)
+
+# Accessing protected attribute and method
+print(f"Circle radius: {my_circle._radius}")
+print(f"Circle area: {my_circle._calculate_area()}")
+```
+
+### Polymorphism:
+
+Polymorphism allows objects of different classes to be treated as objects of a common base class. This can be achieved through method overriding.
+
+```python
+class Animal:
+    def make_sound(self):
+        pass
+
+class Dog(Animal):
+    def make_sound(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def make_sound(self):
+        print("Meow!")
+
+# Using polymorphism
+def animal_sound(animal):
+    animal.make_sound()
+
+my_dog = Dog()
+my_cat = Cat()
+
+animal_sound(my_dog)  # Outputs "Woof!"
+animal_sound(my_cat)  # Outputs "Meow!"
+```
 
 
 
