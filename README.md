@@ -166,6 +166,70 @@ result_not = not a  # False
 
 ____________________________
 
+# python consitions
+
+In Python, conditions are used to control the flow of a program by executing different code blocks based on whether a certain condition evaluates to True or False. The basic syntax for a conditional statement in Python is the `if` statement, and you can also use `elif` (short for "else if") and `else` to handle multiple conditions.
+
+
+You can use relational operators (such as `<`, `>`, `<=`, `>=`, `==`, `!=`) 
+and logical operators (`and`, `or`, `not`) to create conditions based on comparisons and boolean values.
+
+
+Here's a simple example:
+
+```python
+# Example 1: Basic if statement
+x = 10
+if x > 5:
+    print("x is greater than 5")
+
+# Example 2: if-else statement
+y = 3
+if y > 5:
+    print("y is greater than 5")
+else:
+    print("y is not greater than 5")
+
+# Example 3: if-elif-else statement
+z = 7
+if z > 10:
+    print("z is greater than 10")
+elif z > 5:
+    print("z is greater than 5 but not 10")
+else:
+    print("z is not greater than 5")
+
+# Example 4: Nested if statements
+a = 15
+if a > 10:
+    print("a is greater than 10")
+    if a > 20:
+        print("a is also greater than 20")
+    else:
+        print("a is not greater than 20")
+
+# Example 5: Using logical operators
+b = 25
+if b > 10 and b < 30:
+    print("b is between 10 and 30")
+
+# Example 6: Ternary conditional expression
+c = 8
+result = "Even" if c % 2 == 0 else "Odd"
+print(f"The number {c} is {result}")
+```
+
+
+
+
+
+
+
+
+
+
+____________________________
+
 # String 
 
 ```python
