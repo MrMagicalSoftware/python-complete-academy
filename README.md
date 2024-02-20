@@ -13,7 +13,7 @@ https://www.javatpoint.com/python-tutorial<br>
 3. [data_types](#data_types)
 4. [Python_Numbers](#Python_Numbers)
 5. [python_operators](#python_operators)
-6. [License](#license)
+6. [Operatori logici](#Operatori_logici)
 
 ## Introduction
 Briefly introduce your project here.
@@ -207,7 +207,7 @@ Python supports a variety of operators, which are symbols or keywords that perfo
 
 ___________________________
 
-# Operatori logici 
+# Operatori_logici 
 
 
 1. **and:**
