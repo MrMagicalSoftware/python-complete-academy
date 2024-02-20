@@ -681,6 +681,25 @@ print ("Name:", e1.get_name(), "age:", e1.get_age())
 ```
 
 
+____________________
+
+```python
+
+class example:
+   def add(self, a, b):
+      x = a+b
+      return x
+   def add(self, a, b, c):
+      x = a+b+c
+      return x
+
+obj = example()
+
+print (obj.add(10,20,30))
+print (obj.add(10,20))
+
+```
+
 ### Polymorphism:
 
 Polymorphism allows objects of different classes to be treated as objects of a common base class. This can be achieved through method overriding.
