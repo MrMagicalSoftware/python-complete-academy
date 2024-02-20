@@ -11,8 +11,8 @@ https://www.javatpoint.com/python-tutorial<br>
 1. [Introduction](#introduction)
 2. [Installation](#installation)
 3. [data_types](#data_types)
-4. [Python Numbers](#Python Numbers)
-5. [Contributing](#contributing)
+4. [Python_Numbers](#Python_Numbers)
+5. [python_operators](#python_operators)
 6. [License](#license)
 
 ## Introduction
@@ -86,7 +86,7 @@ None Type: 	NoneType<br>
 _____________________
 
 
-## Python Numbers
+## Python_Numbers
 
 ```python
 x = 1    # int
@@ -135,7 +135,7 @@ z = str(3.0)  # z will be '3.0'
 
 ______________________________
 
-# python operators
+## python_operators
 
 
 Python supports a variety of operators, which are symbols or keywords that perform operations on variables and values. Here are some common types of operators in Python:
