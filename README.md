@@ -15,6 +15,8 @@ https://www.javatpoint.com/python-tutorial<br>
 5. [python_operators](#python_operators)
 6. [Operatori logici](#Operatori_logici)
 7. [python conditions](#pythonconditions)
+8. [loops](#loops)
+
 
 
 ## Introduction
