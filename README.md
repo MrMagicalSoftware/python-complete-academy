@@ -118,6 +118,77 @@ z = str(3.0)  # z will be '3.0'
 
 ______________________________
 
+# python operators
+
+
+Python supports a variety of operators, which are symbols or keywords that perform operations on variables and values. Here are some common types of operators in Python:
+
+1. **Arithmetic Operators:**
+   ```python
+   +   # Addition
+   -   # Subtraction
+   *   # Multiplication
+   /   # Division (float)
+   //  # Division (floor)
+   %   # Modulus (remainder)
+   **  # Exponentiation
+   ```
+
+2. **Comparison Operators:**
+   ```python
+   ==  # Equal to
+   !=  # Not equal to
+   <   # Less than
+   >   # Greater than
+   <=  # Less than or equal to
+   >=  # Greater than or equal to
+   ```
+
+3. **Logical Operators:**
+   ```python
+   and  # Logical AND
+   or   # Logical OR
+   not  # Logical NOT
+   ```
+
+4. **Assignment Operators:**
+   ```python
+   =    # Assign value
+   +=   # Add and assign
+   -=   # Subtract and assign
+   *=   # Multiply and assign
+   /=   # Divide and assign
+   %=   # Modulus and assign
+   //=  # Floor division and assign
+   **=  # Exponentiation and assign
+   ```
+
+5. **Identity Operators:**
+   ```python
+   is    # True if the operands are identical objects
+   is not  # True if the operands are not identical objects
+   ```
+
+6. **Membership Operators:**
+   ```python
+   in    # True if a value is found in the sequence
+   not in  # True if a value is not found in the sequence
+   ```
+
+7. **Bitwise Operators:**
+   ```python
+   &   # Bitwise AND
+   |   # Bitwise OR
+   ^   # Bitwise XOR
+   ~   # Bitwise NOT
+   <<  # Left shift
+   >>  # Right shift
+   ```
+
+
+
+
+___________________________
 
 # Operatori logici 
 
