@@ -289,6 +289,62 @@ c = 8
 result = "Even" if c % 2 == 0 else "Odd"
 print(f"The number {c} is {result}")
 ```
+______________________________________
+
+
+# Loops
+
+
+In Python, loops are used to repeatedly execute a block of code until a certain condition is met. There are two main types of loops in Python: `for` and `while`.
+
+1. **`for` Loop:**
+   The `for` loop is used to iterate over a sequence (such as a list, tuple, string, or range) or other iterable objects.
+
+   ```python
+   # Example 1: Iterate over a list
+   fruits = ['apple', 'banana', 'orange']
+   for fruit in fruits:
+       print(fruit)
+
+   # Example 2: Iterate over a range of numbers
+   for i in range(5):
+       print(i)
+   ```
+
+2. **`while` Loop:**
+   The `while` loop is used to repeatedly execute a block of code as long as a specified condition is true.
+
+   ```python
+   # Example 1: Simple while loop
+   count = 0
+   while count < 5:
+       print(count)
+       count += 1
+
+   # Example 2: Using a while loop to iterate over a list
+   numbers = [1, 2, 3, 4, 5]
+   index = 0
+   while index < len(numbers):
+       print(numbers[index])
+       index += 1
+   ```
+
+3. **Loop Control Statements:**
+   - `break`: Terminates the loop prematurely.
+   - `continue`: Skips the rest of the code inside the loop for the current iteration.
+   - `else`: Executed when the loop condition becomes False (applies to both `for` and `while` loops).
+
+   ```python
+   # Example: Using break and continue
+   for i in range(10):
+       if i == 3:
+           break  # Exit the loop when i is 3
+       if i == 1:
+           continue  # Skip the rest of the code for i equals 1
+       print(i)
+   else:
+       print("Loop finished")
+   ```
 
 
 
