@@ -7,6 +7,34 @@ https://www.tutorialspoint.com/python/index.htm<br>
 https://www.javatpoint.com/python-tutorial<br>
 
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Features](#features)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+## Introduction
+Briefly introduce your project here.
+
+## Installation
+Provide instructions on how to install your project.
+
+## Usage
+Explain how to use your project.
+
+## Features
+Highlight the key features of your project.
+
+## Contributing
+Provide guidelines for others to contribute to your project.
+
+## License
+Specify the license for your project.
+
+
+
 **data types**
 
 
