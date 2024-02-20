@@ -254,6 +254,46 @@ result_not = not a  # False
 ```
 
 
+**user input**
+
+In Python, you can use the `input()` function to get input from the user. The `input()` function takes a string as an argument, which is used as the prompt for the user. Here's a simple example:
+
+```python
+# Get user input and store it in a variable
+user_name = input("Enter your name: ")
+
+# Display the user's input
+print(f"Hello, {user_name}!")
+```
+
+In this example, the `input("Enter your name: ")` statement prompts the user to enter their name. The entered value is then stored in the variable `user_name`, and the program displays a greeting using that input.
+
+Keep in mind that the `input()` function always returns a string. If you need to get numeric input, you may need to convert the input to the desired data type (e.g., using `int()` for integers or `float()` for floating-point numbers).
+
+```python
+# Get numeric input from the user
+user_age = int(input("Enter your age: "))
+# Now user_age is an integer
+
+# Perform some operation with the user's input
+future_age = user_age + 5
+print(f"In 5 years, you will be {future_age} years old.")
+```
+
+Remember to handle exceptions when converting user input to other data types, as the user might input something that cannot be converted.
+
+```python
+# Safely get numeric input from the user
+try:
+    user_height = float(input("Enter your height in meters: "))
+except ValueError:
+    print("Invalid input. Please enter a numeric value for height.")
+```
+
+This `try-except` block catches a `ValueError` if the user enters something that cannot be converted to a floating-point number.
+
+Always validate and handle user input appropriately to ensure the robustness of your program.
+
 
 
 
