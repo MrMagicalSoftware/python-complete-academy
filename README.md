@@ -10,7 +10,7 @@ https://www.javatpoint.com/python-tutorial<br>
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [datatypes](#datatypes)
+3. [data_types](#data_types)
 4. [Python Numbers](#Python Numbers)
 5. [Contributing](#contributing)
 6. [License](#license)
@@ -24,7 +24,7 @@ Provide instructions on how to install your project.
 
 
 
-## data types
+## data_types
 
 
 Python has the following data types built-in by default, in these categories:<br>
