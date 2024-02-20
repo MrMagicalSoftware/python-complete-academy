@@ -14,6 +14,8 @@ https://www.javatpoint.com/python-tutorial<br>
 4. [Python_Numbers](#Python_Numbers)
 5. [python_operators](#python_operators)
 6. [Operatori logici](#Operatori_logici)
+7. [python conditions](#pythonconditions)
+
 
 ## Introduction
 Briefly introduce your project here.
@@ -254,7 +256,7 @@ result_not = not a  # False
 
 ____________________________
 
-# python consitions
+# python conditions
 
 In Python, conditions are used to control the flow of a program by executing different code blocks based on whether a certain condition evaluates to True or False. The basic syntax for a conditional statement in Python is the `if` statement, and you can also use `elif` (short for "else if") and `else` to handle multiple conditions.
 
