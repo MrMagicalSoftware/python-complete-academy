@@ -10,8 +10,8 @@ https://www.javatpoint.com/python-tutorial<br>
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [Usage](#usage)
-4. [Features](#features)
+3. [data types](#data types)
+4. [Python Numbers](#Python Numbers)
 5. [Contributing](#contributing)
 6. [License](#license)
 
@@ -21,21 +21,10 @@ Briefly introduce your project here.
 ## Installation
 Provide instructions on how to install your project.
 
-## Usage
-Explain how to use your project.
-
-## Features
-Highlight the key features of your project.
-
-## Contributing
-Provide guidelines for others to contribute to your project.
-
-## License
-Specify the license for your project.
 
 
 
-**data types**
+## data types
 
 
 Python has the following data types built-in by default, in these categories:<br>
@@ -97,7 +86,7 @@ None Type: 	NoneType<br>
 _____________________
 
 
-**Python Numbers**
+## Python Numbers
 
 ```python
 x = 1    # int
