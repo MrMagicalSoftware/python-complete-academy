@@ -20,11 +20,7 @@ https://www.javatpoint.com/python-tutorial<br>
 
 
 
-## Introduction
-Briefly introduce your project here.
 
-## Installation
-Provide instructions on how to install your project.
 
 
 
