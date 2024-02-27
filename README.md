@@ -665,7 +665,14 @@ class Employee:
       self.__name = name
       return
    def set_age(self, age):
-      self.__age=age
+      if age > 0:
+         self.__age=age
+      else:
+         self.__age = 1
+
+   def festeggia_compleanno(self):
+      self.__age = self.__age + 1
+
 
 e1=Employee("Bhavana", 24)
 print ("Name:", e1.get_name(), "age:", 
