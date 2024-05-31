@@ -583,6 +583,35 @@ my_dog = Dog(name="Buddy", age=3)
 print(f"My dog's name is {my_dog.name} and is {my_dog.age} years old.")
 my_dog.bark()
 ```
+```
+class Animale:
+    def __init__(self, nome, età, razza):
+        self.__nome = nome
+        self.__età = età 
+        self.__razza = razza
+
+    def get_nome(self):
+        return self.__nome
+    
+    def get_razza(self):
+        return self.__razza
+    
+    def get_età(self):
+        return self.__età
+    
+    def set_età(self, nuova_età):
+        self.__età= nuova_età
+    
+    # metodi della classe Animale
+    def fa_suono(self):
+        print("sound")
+    
+    def __str__(self) -> str:
+        return f"{self.__nome} {self.__età} {self.__razza}"
+```
+
+
+
 
 In this example, `Dog` is a class with attributes `name` and `age`, and a method `bark`. The `__init__` method is a special method called a constructor, which is executed when an object is created.
 
@@ -595,17 +624,15 @@ Objects are instances of a class. They represent specific instances of the class
 Inheritance allows a class (subclass) to inherit the attributes and methods of another class (superclass). It promotes code reusability.
 
 ```python
-class Cat(Dog):
-    def purr(self):
-        print("Purr!")
+class Cat(Animale):
+   
 
 # Creating an instance of the Cat class
-my_cat = Cat(name="Whiskers", age=2)
+my_cat = Cat(name="Whiskers", eta=2 , razza="siamese£)
 
 # Inherited attributes and methods
-print(f"My cat's name is {my_cat.name} and is {my_cat.age} years old.")
-my_cat.bark()  # Inherited method
-my_cat.purr()  # Additional method
+
+my_cat.fa_suono()
 ```
 
 ### Encapsulation:
