@@ -53,3 +53,38 @@ if numero_utente % 2 == 0:
 else :
     print("No")   
 ''' 
+
+
+//esercizio:
+
+# inserisci un numero
+numero_utente1 = int ( input("inserisci un numero"))
+numero_utente2 = int ( input("inserisci un numero"))
+simbolo = str ( input("inserisci il simbolo"))
+
+
+if simbolo=="+":
+    print("faccio la somma")
+    somma = numero_utente1 + numero_utente2
+    print(f"la somma vale {somma}")
+    # print("la somma vale " + str(somma))
+elif simbolo =="-":
+    print("faccio la diff")
+    diff = numero_utente1 - numero_utente2
+    print(f"la diff vale {diff}")
+elif simbolo =="*":
+    print("faccio la moltiplic")
+    molti = numero_utente1 * numero_utente2
+    print(f"la diff vale {molti}")
+elif simbolo =="/":
+    print("faccio la divisione")
+    print(f"la diff vale {numero_utente1 / numero_utente2 }")
+else:
+    print("non posso fare questa operazione :( :( ")
+
+
+
+
+
+
+
