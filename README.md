@@ -827,6 +827,57 @@ ________________________________________
 
 
 
+In Python, l'`import` serve a includere moduli o pacchetti esterni (o anche file Python personalizzati) all'interno del proprio codice, consentendo di utilizzare le funzioni, le classi e le variabili definite altrove. In pratica, l'`import` consente di riutilizzare il codice senza doverlo riscrivere.
+
+### Come Funziona l'import
+
+Esistono vari modi per importare moduli in Python, ognuno con usi e vantaggi diversi:
+
+1. **Importare un intero modulo**
+   ```python
+   import math
+   ```
+   In questo modo importi tutto il modulo `math`, quindi per usare una funzione (ad esempio `sqrt`) devi chiamarla così:
+   ```python
+   math.sqrt(16)  # Restituisce 4.0
+   ```
+
+2. **Importare un modulo con un alias**
+   ```python
+   import numpy as np
+   ```
+   Qui `numpy` è importato con l'alias `np`, che può essere più comodo e leggibile:
+   ```python
+   np.array([1, 2, 3])
+   ```
+
+3. **Importare solo alcune funzioni o classi**
+   ```python
+   from math import sqrt, pi
+   ```
+   Con questa sintassi, importi solo `sqrt` e `pi` dal modulo `math`. Ora puoi usarli direttamente senza il prefisso `math`:
+   ```python
+   sqrt(16)  # Restituisce 4.0
+   ```
+
+4. **Importare tutto da un modulo (sconsigliato)**
+   ```python
+   from math import *
+   ```
+   Questo importa tutte le funzioni e variabili dal modulo `math`, ma può causare conflitti di nome e rendere il codice meno chiaro.
+
+### Importare Moduli Personalizzati
+Se hai un file chiamato `mio_modulo.py` con funzioni o classi, puoi importarlo in un altro file Python:
+```python
+import mio_modulo
+mio_modulo.mia_funzione()
+```
+
+### Struttura dei Pacchetti
+In progetti complessi, i moduli sono organizzati in **pacchetti**, che sono cartelle contenenti file `__init__.py` (che rendono la cartella un pacchetto Python). Si può importare specifici sottopacchetti o moduli usando la notazione a punti:
+```python
+from mio_pacchetto.sottopacchetto import mio_modulo
+```
 
 
 
